@@ -11,7 +11,8 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
-		count++;
+        Shell.Current.FlyoutIsPresented = true;
+        count++;
 
 		if (count == 1)
 			CounterBtn.Text = $"Clicked {count} time";

@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:DemoApp"
+    Shell.NavBarIsVisible="False"
     Shell.FlyoutBehavior="Flyout">
 
     <Shell.ItemTemplate>
@@ -20,7 +21,7 @@
             <Grid ColumnDefinitions="*, auto" HeightRequest="150" Padding="10">
                 <Image Source="logo_res.png"  />
             </Grid>
-            <BoxView HeightRequest="1" Color="#e1e1e1"  Margin="0,0,0,50"/>
+            <BoxView HeightRequest="1" Color="#e1e1e1"  Margin="0,0,0,30"/>
         </StackLayout>
     </Shell.FlyoutHeader>
     <ShellContent
